@@ -1,0 +1,84 @@
+/* global links styling */
+a{ 
+    text-decoration: underline;
+    color: #000;
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color:green;
+}
+a:visited{
+    color: yellow;
+}
+
+.button{ 
+    background-color: #4aaaa5;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+}
+.button:hover{
+    background: red;
+    color: #fff;
+}
+body{
+    background-image: url(../images/witewall_3.png);
+    color:#777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+.container{
+    width: 960px;
+    margin: auto;
+    overflow: hidden;
+}
+#main-header{
+    background-color: #fff;
+    border-color: #ccc;
+}
+#navbar ul{
+    padding: 0;
+    list-style: none;
+    
+}
+#navbar li{
+    display: inline;
+}
+#navbar a{
+    color: #777;
+    text-decoration: none;
+    padding-right: 15px;
+}
+#main-footer{
+    background: #666;
+    color: #777;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top-width: 100px;
+    border-top-color: teal;
+}
+.my-form{
+    padding:20px;
+}
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+.my-form label{
+    display: block;
+}
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+/* .my-form input[type="submit"]{ 
+    background-color: #4aaaa5;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+ } */ 
+ 

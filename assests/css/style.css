@@ -57,7 +57,7 @@ body{
     width: auto;
     /* position: fixed; */
     float: right;
-    padding: 30px;
+    line-height: 80px;
     margin: 0px;
     list-style: none;
     
@@ -68,7 +68,8 @@ body{
 #navbar a{
     color: #777;
     text-decoration: none;
-    padding-right: 15px; 
+    /* padding-right: 15px;  */
+    padding: 0px 20px;
 }
 #main-footer{
     background: #666;

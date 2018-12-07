@@ -1,3 +1,9 @@
+/* getting rid of default margins */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 /* global links styling */
 a{ 
     text-decoration: underline;
@@ -27,27 +33,30 @@ a:visited{
     clear: both;
 }
 body{
+    height: 100%;
     background-image: url(../images/witewall_3.png);
     color:#777;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.6em; 
-    margin: 0;
+    margin: 0 auto;
+    /* width: 960px; */
 }
 .container{
     box-sizing: border-box;
-    width: 960px;
     margin: 0 auto 0 auto; 
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 #main-header{
     background-color: #fff;
     border-color: #ccc;
     height: 85px;
+    width: 100%;
+    border-bottom: solid 2px;
+    border-bottom-color: #ccc;
 }
 .container h1{
     position: fixed;
-    left: 300px;
     background-color: #4aaaa5;
     color: #fff;
     padding: 30px;
@@ -72,13 +81,22 @@ body{
     padding: 0px 20px;
 }
 #main-footer{
-    background: #666;
+    background-color: #666;
+    position: fixed;
+    left: 0;
+    bottom: 0;
     color: #777;
     text-align: center;
-    padding: 20px;
-    margin-top: 40px;
-    border-top-width: 100px;
+    height: 80px;
+    width: 100%;
+    margin-top: 40px; 
+    border-top: solid 5px;
     border-top-color: teal;
+}
+#main-footer p{
+    position: absolute;
+    left: 45%;
+    bottom: 0;
 }
 .my-form{
     padding:20px;
@@ -99,4 +117,21 @@ body{
     padding: 10px 15px;
     border: none;
  } */ 
- 
+ #main-content{
+     background-color: #fff;
+     padding: 20px;
+     /* margin-top: 30px; */
+     width:960px;
+     margin: 30px auto 0px auto;
+    
+ }
+ .float-img{
+     float:left;
+     margin-right: 10px;
+     margin-bottom: 5px;
+     padding: 2px;
+ }
+ .header-container{
+     width: 960px;
+     margin: auto;
+ }

@@ -168,7 +168,7 @@ body{
   
   .column {
     float: left;
-    width: 25%;
+    width: 33.3%;
   }
   
 
@@ -182,6 +182,6 @@ body{
     background-color: white;
     padding: 10px;
   }
- .column {
-    /* width: 960px; */
-  }
+ /* .column {
+    width: 100%;
+  } */

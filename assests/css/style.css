@@ -41,12 +41,7 @@ body{
     line-height: 1.6em; 
     margin: 0 auto;
 }
-.container{
-    box-sizing: border-box;
-    margin: 0 auto 0 auto; 
-    overflow: hidden;
-   
-}
+
 .container-form{
     box-sizing: border-box;
     width: 960px;
@@ -57,49 +52,37 @@ body{
 }
 #main-header{
     background-color: #fff;
-    height: 85px;
     width: 100%;
     border-bottom: solid 2px #ccc;
-    /* border-bottom-color: #ccc; */
 }
-.header-container{
-    width: 960px;
-    margin: auto;
-}
-.container h1{
-    position: fixed;
+
+#main-header h1{
+    display: inline-block;
     background-color: #4aaaa5;
     color: #fff;
     padding: 30px;
-    margin: 0px;
+    margin: 0px;    
 }
-#navbar ul{
-    width: auto;
-    /* position: fixed; */
-    float: right;
-    line-height: 80px;
-    margin: 0px;
-    list-style: none;
+#navbar{
+    width: 960px;
+    margin: auto;
 }
-#navbar li{
-    display: inline;
-}
+
 #navbar a{
     color: #777;
     text-decoration: none;
-    /* padding-right: 15px;  */
+    float: right;
+    margin: 0;
+    line-height: 80px;
     padding: 0px 20px;
 }
 #main-footer{
     background-color: #666;
-    position: fixed;
-    left: 0;
-    bottom: 0;
+    position: relative;
     color: #777;
     text-align: center;
     height: 80px;
     width: 100%;
-    /* margin-top: 40px;  */
     border-top: solid 8px teal;
 }
 #main-footer p{
@@ -129,7 +112,6 @@ body{
  #main-content{
      background-color: #fff;
      padding: 30px;
-     /* margin-bottom: 30px; */
      width:960px;
      margin: 30px auto; 
      border: solid 1px #ddd;
@@ -143,8 +125,8 @@ body{
     height: 3px; 
     background-color: #ccc;
     border: 0 none;
-    margin-block-start: 1.5em;
-    margin-block-end: 1.5em;
+    margin-block-start: 2.5em;
+    margin-block-end: 2.5em;
    
  }
  .float-img{
@@ -156,19 +138,19 @@ body{
  #main-layout{
     background-color: #fff;
     padding: 30px;
-    /* margin-bottom: 30px; */
     width:960px;
     margin: 30px auto; 
     border: solid 1px #ddd;
  }
 
 .row, .row > .column {
-    padding: 8px;
+    padding-right: 8px;
+    padding-bottom: 50px;
   }
   
   .column {
     float: left;
-    width: 33.3%;
+    width: 35%;
   }
   
 
@@ -178,10 +160,17 @@ body{
     clear: both;
   }
   
-  .content {
+  .content{
+    position: relative;
     background-color: white;
-    padding: 10px;
   }
- /* .column {
-    width: 100%;
-  } */
+
+ .text-block {
+    position: absolute;
+    bottom: 30px;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 20px;
+    width: 270px;
+    text-align: center;
+  }

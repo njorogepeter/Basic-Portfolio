@@ -91,7 +91,7 @@ body{
     bottom: 0;
 }
 .my-form{
-    padding:20px;
+    padding: 0 20px;
 }
 .my-form .form-group{
     padding-bottom: 15px;
@@ -103,20 +103,17 @@ body{
     padding: 8px;
     width: 100%;
 }
-/* .my-form input[type="submit"]{ 
-    background-color: #4aaaa5;
-    color: #fff;
-    padding: 10px 15px;
-    border: none;
- } */ 
+.my-form textarea{
+    padding: 50px;
+}
  #main-content{
      background-color: #fff;
      padding: 30px;
      width:960px;
      margin: 30px auto; 
      border: solid 1px #ddd;
-
  }
+
  h1{
     font-family: Georgia, 'Times New Roman', Times, serif; 
     color: #4aaaa5;
@@ -126,8 +123,7 @@ body{
     background-color: #ccc;
     border: 0 none;
     margin-block-start: 2.5em;
-    margin-block-end: 2.5em;
-   
+    margin-block-end: 2.5em;  
  }
  .float-img{
      float:left;
